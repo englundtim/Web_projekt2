@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+header{
+    background-color: #3d2d1a;
+    justify-content: space-evenly;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #e7d9b2;
+
+}
+main{
+    background-color: #3e90aa;
+}
+footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
