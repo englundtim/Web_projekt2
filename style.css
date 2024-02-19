@@ -19,6 +19,8 @@ nav{
     justify-content: space-evenly;
     background-color: #e7d9b2;
     align-items: center;
+    margin: -10px;
+    margin-bottom: 10px;
 
 }
 main{
@@ -27,8 +29,13 @@ main{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
 }
+.backround-img{
+    max-width: 100px;
+}
 article{
     background-color: #b2b2b2;
+    font-family: 'Satisfy', serif;
+    max-width: 200px;
 }
 footer{
     background-color: #97764e;
@@ -40,7 +47,7 @@ footer{
     font-family: 'Satisfy', serif;
 }
 .articleimg-sizing{
-    max-width: 300px;
+    max-width: 200px;
     max-height: auto;
 }
 .logo{
@@ -52,6 +59,9 @@ h1{
     justify-content: center;
     color: white;
     font-size: 5em;
+}
+h2{
+    font-family: 'Satisfy', serif;
 }
 .cart{
     max-height: 55px;
