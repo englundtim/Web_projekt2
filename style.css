@@ -1,26 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 body{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto 1fr;
 }
 header{
+    display: flex;
+    flex-direction: row;
     background-color: #3d2d1a;
-    justify-content: space-evenly;
     text-align: center;
+    align-items: center;
+    margin: -35px;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #e7d9b2;
+    align-items: center;
 
 }
 main{
     background-color: #3e90aa;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+article{
+    background-color: #b2b2b2;
 }
 footer{
-    background-color: black;
+    background-color: #97764e;
     color: white;
     justify-content: center;
     text-align: center;
+}
+.Satisfy{
+    font-family: 'Satisfy', serif;
+}
+.articleimg-sizing{
+    max-width: 300px;
+    max-height: auto;
+}
+.logo{
+    max-width: auto;
+    max-height: 150px;
+    justify-content: left;
+}
+h1{
+    justify-content: center;
+    color: white;
+    font-size: 5em;
+}
+.cart{
+    max-height: 55px;
 }
