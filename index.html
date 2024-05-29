@@ -18,41 +18,79 @@
         <h2>Erbjudanden</h2>
         <h2>Betalinfo</h2>
         <h2>Allmän info</h2>
-        <img class="cart" src="/img/image (8).webp" alt="">
+        <img onclick="displayCart()" class="cart" src="/img/image (8).webp" alt="">
     </nav>
     <main>
-        <img class="backround-img" src="/img/image (9).webp" alt="">
-        <article>
-            <img class="articleimg-sizing" src="/img/image-_2_.webp" alt="WALL-E omslag">
-            <p>WALL-E</p>
-            <p>29,99kr</p>
-        </article>
-        <article>
-            <img class="articleimg-sizing" src="/img/image-_3_.webp" alt="Jaws omslag">
-            <p>Jaws</p>
-            <p>29,99kr</p>
-        </article>
-        <article>
-            <img class="articleimg-sizing" src="/img/image-_4_.webp" alt="Cars omslag">
-            <p>Cars</p>
-            <p>29,99kr</p>
-        </article>
-        <article>
-            <img class="articleimg-sizing" src="/img/image-_5_.webp" alt="Fifty shades of Grey omslag">
-            <p>Fifty shades of Grey</p>
-            <p>29,99kr</p>
-        </article>
-        <article>
-            <img class="articleimg-sizing" src="/img/image (6).webp" alt="Django Unchained omslag">
-            <p>Django Unchained</p>
-            <p>29,99kr</p>
-        </article>
-        <article>
-            <img class="articleimg-sizing" src="/img/image-_7_.webp" alt="Five Nights at freddy's omslag">
-            <p>Five Nights at freddy's</p>
-            <p>29,99kr</p>
-        </article>
+        <img id="backround-img" src="/img/image (9).webp" alt="">
+            <article>
+                <div id="WALL-E">
+                    <img class="articleimg-sizing" src="/img/image-_2_.webp" alt="WALL-E omslag">
+                    <p>WALL-E</p>
+                    <p>29,99kr</p>
+                    <button onclick="addToCart(29.99, 'WALL-E')">
+                        Lägg till i kundvagnen
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div id="Jaws">
+                    <img class="articleimg-sizing" src="/img/image-_3_.webp" alt="Jaws omslag">
+                    <p>Jaws</p>
+                    <p>29,99kr</p>
+                    <button onclick="addToCart(29.99, 'Jaws')">
+                        Lägg till i kundvagnen
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div id="Cars">
+                    <img class="articleimg-sizing" src="/img/image-_4_.webp" alt="Cars omslag">
+                    <p>Cars</p>
+                    <p>29,99kr</p>
+                    <button onclick="addToCart(29.99, 'Cars')">
+                        Lägg till i kundvagnen
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div id="Fifty">
+                    <img class="articleimg-sizing" src="/img/image-_5_.webp" alt="Fifty shades of Grey omslag">
+                    <p>Fifty shades of Grey</p>
+                    <p>29,99kr</p>
+                    <button onclick="addToCart(29.99, 'Fifty shades of Grey')">
+                        Lägg till i kundvagnen
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div id="Django">
+                    <img class="articleimg-sizing" src="/img/image (6).webp" alt="Django Unchained omslag">
+                    <p>Django Unchained</p>
+                    <p>29,99kr</p>
+                    <button onclick="addToCart(29.99, 'Django Unchained')">
+                        Lägg till i kundvagnen
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div id="freddy">
+                    <img class="articleimg-sizing" src="/img/image-_7_.webp" alt="Five Nights at freddy's omslag">
+                    <p>Five Nights at freddy's</p>
+                    <p>29,99kr</p>
+                    <button onclick="addToCart(29.99, 'Five Nights at Freddys')">
+                        Lägg till i kundvagnen
+                    </button>
+                </div>
+            </article>
+            <aside>
+                <button onclick="clearCart()">Töm kundvagnen</button>
+                <ul>
+        
+                </ul>
+                
+            </aside>
     </main>
+    
     <footer>
         <a href="">contact@thelosttresure.com</a>
     </footer>
