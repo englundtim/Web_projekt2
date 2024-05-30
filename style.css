@@ -81,3 +81,47 @@ h2{
 .cart{
     max-height: 55px;
 }
+
+
+/* tablet */
+@media screen and (min-width:641px) and (max-width: 1007px) {
+    
+}
+/* mobil */
+@media screen and (max-width: 640px) {
+    body{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        margin: -8px;
+    }
+    header{
+        display: flex;
+        flex-flow: column;
+    }
+    .Satisfy{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    h1{
+        margin-top: -53.600;
+        margin-bottom: -53.6;
+    }
+    
+    main{
+        grid-column: 1/span 4;
+        grid-row: 3/4;
+        background-color: #3e90aa;
+        display: flex;
+        flex-direction: column;
+        
+        gap: 5vh;
+    
+    }
+    #backround-img{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}
